@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #EFEFF4;
+}
+.header{
+	width: 100%;
+	height: 3rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+}
+.header h1{
+	text-align: center;
+	font-size: 24px;
+	height: 3rem;
+	line-height: 3rem;
+	background: url(../img/me1.png) no-repeat 95% center;
+	background-size: 25px auto;
+}
+.main{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 3rem;
+	bottom: 3rem;
+	overflow: auto;
+}
+.pic{
+	width: 100%;
+	height: 5.75rem;
+	background: #fff;
+}
+.pic img{
+	width: 100%;
+	height: 5.75rem;
+}
+.pic div{
+	position: absolute;
+	left: 40%;
+	top: 7%;
+	color: #fff;
+	font-size: 16px;
+}
+.pic div a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+.pic span{
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	right: 5%;
+	top: 6%;
+	font-weight: bold;
+}
+.guanzhu{
+	width: 100%;
+	background: #fff;
+	height: 3rem;	
+}
+.guanzhu ul{
+	width: 100%;
+	display: -webkit-box;
+}
+.guanzhu ul li{
+	-webkit-box-flex:3;
+	text-align: center;
+	list-style: none;
+	height: 3rem;
+	padding-top: 0.5rem;
+}
+.guanzhu ul li p{
+	font-weight: bold;
+	font-size: 16px;
+}
+.guanzhu ul li a{
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+.dingdan{
+	width: 100%;
+	background: #fff;
+	margin-top: 0.5rem;
+	height: 6rem;
+}
+.dingdan h2{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 22px;
+	padding-left: 15%;
+	background: url(../img/me3.png) no-repeat 5% center;
+	background-size: 24px auto; 
+	border-bottom: 1px solid #ccc;
+}
+.dingdan h2 p{
+	float: right;
+	padding-right: 5%;
+	color: #9E9E9E;
+	font-size: 16px;
+	font-weight: normal;
+}
+.dingdan ul{
+	width: 100%;
+	display: -webkit-box;
+}
+.dingdan ul li{
+	-webkit-box-flex:4;
+	text-align: center;
+	list-style: none;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+}
+.dingdan ul li p img{
+	width: 40%;
+}
+.dingdan ul li a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+}
+ .shezhi{
+	background:#fff;
+	/* margin-top: 0.5rem; */
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 15.75rem;
+	bottom: 0;
+	overflow: auto;
+}
+.shezhi ul{
+	width:100%;
+}
+.shezhi ul li{
+	list-style: none;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid #ccc;
+	background: url(../img/me8.png) no-repeat 5% center;
+	background-size: 20px auto;
+}
+.shezhi ul li span{
+	float: right;
+	padding-right: 5%;
+} 
+ .shezhi ul li a{
+	padding-left: 20%;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+} 
+.footer ul li:nth-child(1) a{
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	left: 50%;
+	top: 0.5rem; 
+	margin-left: -15px;
+	background: url(../img/market.png) no-repeat;
+	background-position: 0 -30px;
+	background-size: 100%; 
+}
+.footer ul li:nth-child(5) a{
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	left: 50%;
+	top: 0.5rem; 
+	margin-left: -15px;
+	 background: url(../img/me.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%; 
+}
